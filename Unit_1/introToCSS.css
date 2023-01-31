@@ -1,0 +1,48 @@
+/* 
+    * CSS Ruleset / Rules : the styling for a particular elements(s)
+
+    Building Blocks of a Ruleset: 
+    Selector {  
+        [ Declaration Block is the content of the {} ]
+        property: value;
+    }
+
+    Hierarchy:
+    - !important
+    - Inline CSS
+    - ID Selectors
+    - Class Selectors
+    - Elements
+*/
+
+/* We are targeting the element */
+nav {
+    background-color: rgba(34, 73, 15, 0.829);
+    /* 
+    - preset colors: red, blue, yellow, etc.
+        - rgb & rgba (red, green, blue, alpha)
+        - alpha determines transparency
+        - ex: rgba(200, 15, 100, .5);
+    - Hexadecimal
+        - 16 digits: 0-9, A-F
+        - ex: #d2d2d2
+    */
+        overflow: hidden;
+}
+
+/* Targeting element with an id, # */
+#home {
+    float: left;
+    color:rgba(194, 153, 39, 0.829) !important;
+}
+
+/* Targeting elements with a class, . */
+.btn {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
