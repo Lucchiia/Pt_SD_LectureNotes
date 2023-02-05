@@ -41,9 +41,9 @@
     top: 20px;
     right: 30px; /* CHANGED */
     background-color: blue; /* CHANGED */
-  }
+}
 
-  #fixed-sample {
+#fixed-sample {
     height: 50px;
     width: 50px;
     position: fixed; /*CHANGED */

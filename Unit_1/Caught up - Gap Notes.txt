@@ -1,4 +1,4 @@
-n            > Refers to direct children of an element
+n           > Refers to direct children of an element
             , Matching selector
             + Immediate sibling of an element
             ~ subsequent/preceding sibling of an element

@@ -1,3 +1,86 @@
+n           > Refers to direct children of an element
+            , Matching selector
+            + Immediate sibling of an element
+            ~ subsequent/preceding sibling of an element
+*/
+
+nav .btn {
+    text-shadow: 2px 2px 2px- black;
+
+}
+
+</nav>
+
+
+<div>
+        <div id="test-div" class="paragraph">
+            <h3>Header 1</h3>
+            <p>Sample Info 1</p>
+        </div>
+        <div class="paragraph">
+            <h3>Header 2</h3>
+            <p>Sample Info 2</p>
+        </div>
+    </div>
+
+    div 
+    
+div .paragraph > p {
+    /* targeting any div with a class "paragraph" that is holding a <p> element*/
+    color: violet
+}
+            
+.paragraph + div {
+    color: burlywood;
+}
+
+/* 
+* Psuedo-Class Selectors
+            - Interactive effects, making elements "do" things
+*/
+
+a:hover {
+    color: lightblue
+
+    /*
+    mousing over any tag will alter it's color
+        - "home" doesn't change due to !important
+        */
+}
+
+a:active {
+    color: lime
+    text-shadow: 2px 2px 2px rgba (255, 255, 255);
+}
+
+div .paragraph > p {
+    /* targeting any div with a class "paragraph" that is holding a <p> element*/
+    color: violet
+}
+            
+.paragraph + div {
+    color: burlywood;
+}
+
+/* 
+* Psuedo-Class Selectors
+            - Interactive effects, making elements "do" things
+*/
+
+a:hover {
+    color: lightblue
+
+    /*
+    mousing over any tag will alter it's color
+        - "home" doesn't change due to !important
+        */
+}
+
+a:active {
+    color: lime
+    text-shadow: 2px 2px 2px rgba (255, 255, 255);
+}
+
 /* 
     * CSS Ruleset / Rules : the styling for a particular elements(s)
 
