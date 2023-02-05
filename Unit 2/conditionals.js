@@ -184,3 +184,49 @@ switch (true) {
         console.log("Thats not a grade value")
 }
 
+
+// ? Ternary 
+/* 
+    Always a If/Else style conditional at minimum 
+    Structure (is different):
+    Expression with a ? , the true values on the left of the colon and the false value on right side of :
+*/
+
+let expression = true; // get Runs false , if = true reads Runs true
+
+expression ? console.log("Runs true") : console.log("Runs false");
+
+let newNum = 6; // > 0 num like -5 example, would print "No, less than..etc"
+
+newNum > 0 ? console.log("Yes, greater than 0") : console.log("No, less than 0")
+
+// as an if/else
+if (newNum > 0) {
+    console.log("yes");
+  } else {
+    console.log("no");
+  }
+
+// ? Else/If
+
+let anotherNum = 0;
+
+if (anotherNum == 0) {
+    console.log("Hello"); 
+   }   else if (anotherNum > 0) {
+    console.log("Hey there!")
+    } else {
+        console.log("Goodby");
+    }
+
+    anotherNum == 0 // this is same structure as above just with diff symb.'s
+  ? console.log("Hello")
+  : newNum > 0
+  ? console.log("hi")
+  : console.log("goodbye again");
+
+  let numOne = 5;
+  let numTwo = 2;
+
+let value = numOne + numTwo > 1 ? numOne + numTwo : 0; // if just this wont ready a/t 
+console.log(value); // false bc -5 + 3 is not > 1 so just reads 0, if 5+2 is 14 which is more than 1 would read result of equation (7) (to left of colon : above is true)
